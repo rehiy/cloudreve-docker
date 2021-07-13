@@ -1,4 +1,4 @@
-FROM debain
+FROM debian
 
 RUN apt update &&
     apt install -y wget &&
