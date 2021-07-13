@@ -1,4 +1,4 @@
-FROM debian:latest
+FROM debian:bullseye-slim
 
 RUN apt update; \
     apt install -y wget openssl; \
